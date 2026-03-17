@@ -4,7 +4,7 @@ import {
   mdiEmail,
   mdiLogout,
   mdiThemeLightDark,
-  mdiGithub,
+  // mdiGithub,
   mdiReact,
 } from '@mdi/js'
 
@@ -62,18 +62,18 @@ export default [
     isDesktopNoLabel: true,
     isToggleLightDark: true,
   },
-  {
-    icon: mdiGithub,
-    label: 'GitHub',
-    isDesktopNoLabel: true,
-    href: 'https://github.com/justboil/admin-one-vue-tailwind',
-    target: '_blank',
-  },
+  // {
+  //   icon: mdiGithub,
+  //   label: 'GitHub',
+  //   isDesktopNoLabel: true,
+  //   href: '',
+  //   target: '_blank',
+  // },
   {
     icon: mdiReact,
     label: 'React version',
     isDesktopNoLabel: true,
-    href: 'https://github.com/justboil/admin-one-react-tailwind',
+    href: '',
     target: '_blank',
   },
   {

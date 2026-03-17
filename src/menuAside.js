@@ -1,7 +1,7 @@
 import {
   mdiAccountCircle,
   mdiMonitor,
-  mdiGithub,
+  // mdiGithub,
   mdiLock,
   mdiAlertCircle,
   mdiSquareEditOutline,
@@ -71,12 +71,12 @@ export const menuAsideMain = [
       },
     ],
   },
-  {
-    href: 'https://github.com/justboil/admin-one-vue-tailwind',
-    label: 'GitHub',
-    icon: mdiGithub,
-    target: '_blank',
-  },
+  // {
+  //   href: '',
+  //   label: 'GitHub',
+  //   icon: mdiGithub,
+  //   target: '_blank',
+  // },
 ]
 
 export const menuAsideBottom = [

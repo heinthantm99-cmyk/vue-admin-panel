@@ -11,7 +11,7 @@ import NavBar from '@/components/NavBar.vue'
 import NavBarItemPlain from '@/components/NavBarItemPlain.vue'
 import AsideMenu from '@/components/AsideMenu.vue'
 import FooterBar from '@/components/FooterBar.vue'
-import PremiumVersionBadge from '@/components/PremiumVersionBadge.vue'
+// import PremiumVersionBadge from '@/components/PremiumVersionBadge.vue'
 
 const layoutAsidePadding = 'xl:pl-60'
 
@@ -76,9 +76,9 @@ const menuClick = (event, item) => {
       />
       <slot />
       <FooterBar>
-        <div class="flex items-center justify-center lg:justify-start">
+        <!-- <div class="flex items-center justify-center lg:justify-start">
           <PremiumVersionBadge />
-        </div>
+        </div> -->
       </FooterBar>
     </div>
   </div>
